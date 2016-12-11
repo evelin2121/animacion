@@ -1,0 +1,47 @@
+body{
+	width: 100%;
+	height: 540px;
+	margin: auto;
+	border:2px solid black;
+	background-image: url(fotos/camino.jpg);
+	background-repeat: no-repeat;
+}
+h1{
+	text-align: center;
+}
+
+
+
+.banner{
+	width: 220px;
+	height: 40px;
+	border-radius: 15px;
+	position: relative;
+	top:200px;
+	left: 200px;
+	background-image: url(fotos/gato3.jpg);
+	position: relative;
+	animation: gato infinite 700ms steps(1);
+}
+
+i{
+	width: 500px;
+	height: 300px;
+}
+@keyframes gato{
+
+	1% {
+		background-position: -500px
+	}
+
+	50% {
+		background-position: -1000px
+	}
+
+	
+}
+
+
+
+
+
